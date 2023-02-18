@@ -10,7 +10,6 @@ import { exploreWorlds } from '../constants';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
-  console.log(active);
   return (
     <section id="explore" className={styles.paddings}>
       <motion.div
